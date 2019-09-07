@@ -33,7 +33,7 @@ function draw() {
   }
   endShape();
   
-  if(vol_history.length>width-(width-800)){
+  if(vol_history.length>width-(width-5)){
      vol_history.splice(0,1) 
   }
   
