@@ -2,7 +2,7 @@ var mic;
 var vol_history = [];
 
 function setup() {
-  canvas = createCanvas(windowWidth,windowHeight);
+  canvas = createCanvas(displayWidth,displayWidth);
   mic = new p5.AudioIn();
   mic.start()
   
