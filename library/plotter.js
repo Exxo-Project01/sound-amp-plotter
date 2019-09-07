@@ -25,7 +25,7 @@ function draw() {
   
   beginShape();
   stroke(0,250,154);
-  strokeWeight(3);
+  strokeWeight(1);
   noFill();
   for(let i=0;i<vol_history.length;i++){
     var y = map(vol_history[i], -1,1,height,-1);
